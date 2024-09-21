@@ -4,7 +4,6 @@ import com.cinema.dao.CustomerDAO;
 import com.cinema.model.Customer;
 
 import java.io.*;
-import java.security.KeyStore;
 import java.sql.SQLException;
 import java.util.List;
 

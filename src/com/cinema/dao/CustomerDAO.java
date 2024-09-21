@@ -70,7 +70,6 @@ public class CustomerDAO extends AbstractDAO<Customer> {
     @Override
     public void delete(Customer customer) throws SQLException {
         String query = "Delete from customers where id = ?";
-
         Connection connection = this.connectionFactory.createConnection();
         PreparedStatement preparedStatement = connection.prepareStatement(query);
         preparedStatement.setInt(1, customer.getId());

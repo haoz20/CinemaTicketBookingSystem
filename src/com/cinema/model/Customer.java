@@ -8,6 +8,7 @@ public class Customer {
 
     private String name;
     private List<Ticket> tickets = new ArrayList<Ticket>();
+
     public int getId() {
         return id;
     }

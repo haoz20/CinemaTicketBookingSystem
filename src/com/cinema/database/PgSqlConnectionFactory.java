@@ -11,7 +11,7 @@ public class PgSqlConnectionFactory {
     private static final String PASSWORD = "root";
 
     public Connection createConnection() throws SQLException {
-        return DriverManager.getConnection(URL, USERNAME, PASSWORD);
+        return DriverManager.getConnection(URL,USERNAME,PASSWORD);
     }
 
 }
